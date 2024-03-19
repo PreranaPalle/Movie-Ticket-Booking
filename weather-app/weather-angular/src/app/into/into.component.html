@@ -1,0 +1,11 @@
+<div class="weather">
+    <label>Enter city:</label>
+    <input type="text" [(ngModel)]="cityModel"/>
+    <input type="checkbox" [(ngModel)]="checked"/>
+    <button type="submit" (click)="onClick()">submit</button>
+    <br>
+    <div *ngFor="let item of value" class="card" style="width: 20rem;">
+        <h1>Temperature:{{item.TEMP}}</h1>
+        <h2>Description: {{ item.descrption }}</h2>
+      </div>
+</div>

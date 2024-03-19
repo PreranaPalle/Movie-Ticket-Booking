@@ -1,0 +1,32 @@
+.container-class{
+    background-image: url("blackone.png");
+    width:100vw;
+    height:100vh;
+     background-repeat: no-repeat;
+    background-size:cover; 
+}
+.form-class{
+    margin-left: 75%;
+    margin-top:5%
+}
+.form-label{
+    color: white;
+}
+.Dropdown{
+    text-align: center;
+}
+.ticket{
+    background-image: url("ticket.png");
+    width:100vw;
+    height:100vh;
+     background-repeat: no-repeat;
+    background-size:cover; 
+}
+h4{
+    margin-right:30px
+}
+.ticketimg{
+    position:fixed;
+    left: 80%;
+    top:45%
+}
